@@ -20,6 +20,7 @@
     text-align: center;
 }
 
+
 .contenedorForm form input{
     margin-top: 6px;
     outline: none;
@@ -27,6 +28,13 @@
 }
 
 .contenedorForm input[type="submit"]{
+    padding: 5px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.contenedorForm input[type="button"]{
     padding: 5px;
     font-size: 15px;
     background-color: transparent;

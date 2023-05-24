@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/bookmark.png">
-    <title>Ejercicio 3</title>
+    <title>Ejercicio 4</title>
 
     <link rel="stylesheet" href="css/style.css">
     <script src="main.js" defer></script>
@@ -13,15 +13,16 @@
 <body>
     
     <div class="contenedorForm">
-        <h1>Ejercicio 3</h1>
+        <h1>Ejercicio 4</h1>
         <form id="myForm">
-            <label>Ingrese la resistencia de la corriente</label><br>
-            <input type="text" id="resistencia" name="resistencia" pattern="[0-9]+" required/><br><br>
+            <label>Ingrese el nombre de la persona</label><br>
+            <input type="text" id="nombre" name="nombre" required/><br><br>
 
-            <label>Ingrese la intencidad de la corriente</label><br>
-            <input type="text" id="intensidad" name="intensidad" pattern="[0-9]+" required/><br><br>
+            <label>Ingrese la edad de la persona</label><br>
+            <input type="text" id="edad" name="edad" pattern="[0-9]+" required/><br><br>
 
-            <input type="submit" value="Enviar">
+            <input type="submit" id="btnRegistrar" value="Enviar"><br>
+            <input type="button" id="btnContinuar" class="btnContinuar" value="Ver registros" disabled>
         </form>
     </div>
 
