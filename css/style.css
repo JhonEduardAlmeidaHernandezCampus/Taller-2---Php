@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorForm h1{
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+.contenedorForm form{
+    text-align: center;
+}
+
+.contenedorForm form input{
+    margin-top: 6px;
+    outline: none;
+    text-align: center;
+}
+
+.contenedorForm input[type="submit"]{
+    padding: 5px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+}
